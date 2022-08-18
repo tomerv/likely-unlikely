@@ -22,3 +22,6 @@ for d in *; do
     done
 done
 
+rm out.zip
+zip -q out.zip -r out/*
+
